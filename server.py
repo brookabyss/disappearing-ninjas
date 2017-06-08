@@ -17,5 +17,7 @@ def show_color(color):
         session['ninja']= "img/raphael.jpg"
     elif color=="purple":
         session['ninja']= "img/donatello.jpg"
+    else:
+        session['ninja']= "img/notapril.jpg"
     return render_template('color.html')
 app.run(debug=True)
